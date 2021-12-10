@@ -50,5 +50,8 @@
 #define  DIO_u8PIN5  5
 #define  DIO_u8PIN6  6
 #define  DIO_u8PIN7  7
+/*Configuration of pin state*/
+#define  DIO_u8_PULLDOWN 0
+#define  DIO_u8_PULLUP   1
 
 #endif /* MCAL_DIO_DIO_INC_DIO_PRIVATE_H_ */

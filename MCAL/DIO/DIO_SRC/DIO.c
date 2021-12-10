@@ -227,16 +227,16 @@ ES_T DIO_enum_ReadChannel (u8 Copy_U8GroupID ,u8 Copy_u8PinID ,u8 *Copy_Pu8Value
 			switch (Copy_U8GroupID)
 			{
 			case DIO_u8GROUPA :
-				*Copy_Pu8Value=CHECK_BIT(DIO_PORTA_REG,Copy_u8PinID);
+				*Copy_Pu8Value=CHECK_BIT(DIO_PINA_REG,Copy_u8PinID);
 				break;
 			case DIO_u8GROUPB :
-				*Copy_Pu8Value=CHECK_BIT(DIO_PORTB_REG,Copy_u8PinID);
+				*Copy_Pu8Value=CHECK_BIT(DIO_PINB_REG,Copy_u8PinID);
 				break;
 			case DIO_u8GROUPC :
-				*Copy_Pu8Value=CHECK_BIT(DIO_PORTC_REG,Copy_u8PinID);
+				*Copy_Pu8Value=CHECK_BIT(DIO_PINC_REG,Copy_u8PinID);
 				break;
 			case DIO_u8GROUPD :
-				*Copy_Pu8Value=CHECK_BIT(DIO_PORTD_REG,Copy_u8PinID);
+				*Copy_Pu8Value=CHECK_BIT(DIO_PIND_REG,Copy_u8PinID);
 				break;
 			}
 			Local_enum_ErrorState =ES_OK;
