@@ -11,6 +11,8 @@
 typedef enum {
 	ES_NOK,
 	ES_OK,
+	ES_OUT_OF_RANGE,
+	ES_NULL_POINTER,
 }ES_T;
 
 #endif /* COTS_ERROR_STATE_H_ */
