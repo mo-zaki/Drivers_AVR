@@ -20,6 +20,10 @@ typedef signed long  int s32;
 typedef float  f32;
 typedef double f64;
 
+typedef enum {
+	FALSE,
+	TRUE,
+}Boolean_T;
 #define NULL 0x00
 
 #endif /* COTS_STD_TYPES_H_ */
